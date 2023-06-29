@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://technative-university.github.io/aws-technative-workshop-nl-gr-01/"
 disableKinds = [
   "sitemap",
   "RSS"

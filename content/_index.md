@@ -163,6 +163,10 @@ and this happens...
 - • Getting stuff inside your VM
 - • Access phpMyAdmin via a SSH tunnel
 
+&nbsp;
+
+https://github.com/technative-university/01-lamp-on-ec2
+
 <!-- : .wrap .size-70 .aligncenter -->
 
 ---
@@ -196,6 +200,9 @@ and this happens...
 - • Create a litte terraform project
 - • Deploy and test
 
+&nbsp;
+
+https://github.com/technative-university/02-minimal-terraform-exercise
 <!-- : .wrap .size-70 .aligncenter -->
 
 ---
@@ -229,348 +236,92 @@ and this happens...
 - • Read module the module instructions
 - • Deploy and test
 
+&nbsp;
+
+https://github.com/technative-university/03-terraform-module-form-endpoint
+
 <!-- : .wrap .size-70 .aligncenter -->
 
 ---
 
+<!-- : .wrap .size-70 .aligncenter -->
+
+## Choose your execise
+
+#### ➡️ Installing a LAMP server {.technative-title}
+#### ➡️ Minimal Terraform {.technative-title}
+#### ➡️ MailForm Endpoint with Terraform {.technative-title}
+
 ---
 
+<!-- : .wrap .size-70 .aligncenter -->
 
+## Exercises for the **bored nerds** 🥱
 
+---
 
+<!-- : .wrap  -->
 
-
-
-
-## **company** is unhappy with Vercel
-
-# 😒
+##### Exercises for the **bored nerds** 🥱{.technative-title}
 
 |||
 
-## Bad support
+## Bonus exercises Docker + Traefik
+
+|||
+
+#### Steps to take.
+
+- • Turn of the webserver in the Bitnami host
+- • Install Docker & Docker compose
+- • Fire up a traefik docker container
+- • Fire up [Umami](https://umami.is/) with docker-compose with traefik conifguration
+
+&nbsp;
+
+<!-- : .wrap .size-70 .aligncenter -->
+
+---
+
+<!-- : .wrap  -->
+
+##### Exercises for the **bored nerds** 🥱{.technative-title}
+
+|||
+
+## Add authentication to static site with Cognito
+
+|||
+
+#### Steps to take.
+
+- • Read the module docs from [static-website-cognito-auth](https://registry.terraform.io/modules/TechNative-B-V/static-website-cognito-auth/aws/latest)
+- • try to implement
+- • Bonus Bonus: connect to your Google Cloud authentication.
+
+<!-- : .wrap .size-70 .aligncenter -->
+
+---
+
+<!-- : .wrap .size-70 .aligncenter -->
+
+## Thanks!
+
+# 😀
+
+|||
+
+## Contact me for questions
 
 <!-- : .wrap .size-70 .bg-white .shadow -->
 
-The NextJS Hosting Plan support is poor, considering the price we pay.
+pim@technative.eu
 
 |||
 
-## Too expensive
+## Let's plan the next workshop
 
-Current growth will drive the costs unreasonable high.
-
----
-
-<!-- : .wrap .size-70 .aligncenter -->
-
-##### company asked TechNative to compare other hosting options.
-
-### These are the results..{.technative-title}
-
----
-
-<!-- : .wrap .size-70 .aligncenter -->
-
-## first some starting points
-
----
-
-<!-- : .wrap  -->
-
-##### starting points {.technative-title}
-
-|||
-
-## **Wannahaves**
-
-|||
-
-- • (FrontEnd) Developer Happiness
-
-- • Maintainable & KISS
-
-- • Affordable and Cost Transparency
-
-- • Well Supported
-
-- • Future proof
-
-&nbsp;
-
-&nbsp; &nbsp;&nbsp; &nbsp;and Cloud Native is the Holy Grail..
-{.technative-title}
-
----
-
-<!-- : .wrap  -->
-##### starting points {.technative-title}
-
-|||
-
-## **Hard Specs**
-
-|||
-
-- • NextJS 13
-- • Server Site Rendering or Generation
-- • Incremental Static Regeneration (ISR)
-- • Using middleware
-- • Pipelines that can work with the WireGuard VPN
-
-
----
-
-<!-- : .wrap .size-70 .aligncenter -->
-
-## Inventory of options
-
----
-
-##### Inventory of options {.technative-title}
-
-|||
-
-### Serverless NextJS
-
-|||
-
-- • Using the serverless framework.
-- • Officially supports untill NextJS 11
-- • NextJS 12 together with ISR and SSR in feature branches.
-- • Some success with company frontend running Next 12
-- • NextJS 13 upgrade broke our implementation, (we made a git mess)
-
-&nbsp;
-
-The project seems to have stopped being active.
-{.text-intro}
-
----
-
-##### Inventory of options {.technative-title}
-
-|||
-
-### Terraform AWS NextJS
-
-|||
-
-- • Most promising, best papers, most elegant
-- • Terraform module deploying to AWS
-- • Creates CloudFront, S3, Lambda and Lamda@edge components
-- • The Next 13 upgrade was a big issue
-- • Lead developer was hired by Vercel
-- • Project is orphaned.
-
-&nbsp;
-
-We'll keep watching this.
-{.text-intro}
-
----
-
-<!-- : .wrap .size-70 .aligncenter -->
-
-##### Inventory of options {.technative-title}
-
-### Other projects
-
-&nbsp;
-
-- **slagd nexjs**, just one developer
-- **cdk-nextjs**, not mature
-
-
----
-
-<!-- : .wrap .size-70 .aligncenter -->
-## Remaining competitors
-
----
-
-##### Remaining competitors {.technative-title}
-
-|||
-
-## **AWS Amplify**
-### November Release
-
-|||
-
-- • Custom docker image for VPN connectivity
-- • https://test.api.tracklib.com was not possible to setup
-- • Hidden resources: has pro's and con's
-- • Missing logs (misconfiguration?)
-- • Performance mode @edge lambda functions
-- • Supports Password Protection
-- • Native support for Cypress tests
-- • Pay as you go pricing
-
----
-
-##### Remaining competitors {.technative-title}
-
-|||
-
-## **AWS Amplify**
-### November Release
-
-|||
-
-
-#### Pricing
-
-| Resource usage         | costs                        |
-|------------------------|------------------------------|
-| Build and Deploy       | $0.01 per minute             |
-| Data Storage           | $0.023 per GB per month      |
-| Data transfer out      | $0.15 per GB served          |
-| Request Count (SSR)    | $0.30 per 1 million requests |
-| Request Duration (SSR) | $0.20 per hour (GB-hour)     |
-
-source:  https://aws.amazon.com/amplify/pricing/
-
----
-
-##### Remaining competitors {.technative-title}
-
-|||
-
-## **AWS Amplify**
-### November Release
-
-|||
-
-A test implementation is running on:
-https://main.dgdttowx37yvx.amplifyapp.com
-
-~~~
-login:   tracklib
-password: ww99ww99
-~~~
-
----
-
-##### Remaining competitors {.technative-title}
-
-|||
-
-### **Containerized NodeJS**
-
-|||
-
-- • Working setup exists ECS cluster.
-- • Old fashioned but always fully compliant
-- • Migrating Fargate will decrease maintaince
-- • Cost competitive using fine grained autoscaling
-
----
-
-<!-- : .wrap .size-70 .aligncenter -->
-# Comparison
-
----
-
-##### Comparison {.technative-title}
-
-|||
-
-## Scalability
-
-
-| Solution             | Scalability            |
-|----------------------|------------------------|
-| NextJS on containers | architecture dependant |
-| Vercel               | limited by plan        |
-| Amplify              | unlimited              |
-
----
-
-##### Comparison {.technative-title}
-
-## Well supported
-
-
-
-| Solution          | Current Features | Future feature | Customer Suppport     |
-|-------------------|------------------------|----------------------|--------------------|
-| NextJS containers | very good              | very good            | supplier dependant |
-| Vercel            | very good              | very good            | poor               |
-| Amplify           | good                   | good ambitions       | excellent          |
-
----
-
-##### Comparison {.technative-title}
-
-## Easy to understand
-### for **DevOps** and **Developer**
-
-| Solution          | Maintainability by DevOps | Usage by FrontEnd Developer |
-|-------------------|---------------------------|-----------------------------|
-| NextJS containers | normal                    | dependant on architecture   |
-| Vercel            | easy                      | easy                        |
-| Amplify           | normal                    | normal                      |
-
----
-
-##### Comparison {.technative-title}
-
-### Compliance with company technical requirements
-
-| Solution          | Full stack compatibility  | FrontEnd compatibility |
-|-------------------|---------------------------|------------------------|
-| NextJS containers | complete                  | complete               |
-| Vercel            | Missing VPN compatibility | complete               |
-| Amplify           | Missing VPN compatibility | normal                 |
-
-
----
-
-<!-- : .wrap .size-70 .aligncenter -->
-
-# Conclusion
-
----
-
-<!-- : .wrap .size-70 .aligncenter -->
-
-
-# Conclusion
-
-- Some troubles with changing versions.
-- NextJS and NodeJS hosting innovation is moving fast.
-- Challenging to formulate a long during strategy.
-- There are good alternatives to move away from Vercel.
-
----
-
-<!-- : .wrap .size-70 .aligncenter -->
-
-# Conclusion
-
-- Currently is no good serverless open source competitor.
-- Serverless is successor of Containerized NextJS.
-
----
-
-<!-- : .wrap .size-70 .aligncenter -->
-
-# Conclusion
-
-- The new Amplify service is promising
-- Amplify deserves a deeper look
-
----
-
-<!-- : .wrap .size-70 .aligncenter -->
-
-# Conclusion
-
-- A containerized solution in AWS is a good alternative.
-- A containerized solution most technically transparent.
-- A containerized solution most flexible choice available.
-
+There is so much more to tell
 
 ---
 
