@@ -3,7 +3,7 @@ title: AWS Workshop (NL/GR)
 
 ---
 
-![](/images/136828712.png)
+![](https://technative-university.github.io/aws-technative-workshop-nl-gr-01/images/136828712.png)
 
 # **AWS Workshop**{.technative-title}
 ### Practical overview of some **useful AWS** cases
@@ -18,7 +18,7 @@ title: AWS Workshop (NL/GR)
 
 ## **About me**
 
-<img src="/images/658612.jpg" width="200" />
+<img src="https://technative-university.github.io/aws-technative-workshop-nl-gr-01/images/658612.jpg" width="200" />
 
 |||
 
