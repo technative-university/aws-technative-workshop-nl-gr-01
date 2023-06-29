@@ -1,0 +1,53 @@
+baseURL = "https://example.com"
+disableKinds = [
+  "sitemap",
+  "RSS"
+]
+enableRobotsTXT = true
+features = [
+  "webslides.js",
+  "pre-made template",
+  "shortcodes"
+]
+googleAnalytics = ""
+languageCode = "en-us"
+tags = [
+  "slide",
+  "presentation",
+  "responsive",
+  "landing page"
+]
+theme = "hugo-webslides"
+title = "webslides"
+
+[markup]
+
+  [markup.goldmark]
+
+    [markup.goldmark.parser]
+
+      [markup.goldmark.parser.attribute]
+      block = true
+
+    [markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+author = "RCJacH"
+homepage = "RCJacH.github.io"
+
+  [params.custom]
+  customCSS = "body {\n  background-color: #112f41;\n  color: #fff;\n  background-image: url(/images/technative-logo.png);\n  background-position-x: right 32px;\n  background-position-y: top 32px;\n  background-size: 240px auto;\n  background-repeat: no-repeat;\n}\n\nh1.technative-title {\n  text-transform: uppercase;\n}\n\n.technative-title{\n  color: #f2b134;\n}\n\nh1,h2,h3,h4,h5,h6 {\n  font-family: Rubik;\n}\n\na {\n  color: #f2b134;\n}\n\npre {\n  background: #2c2c2c;\n  border: 1px solid rgba(254, 200, 140, 0.1);\n  -webkit-box-shadow: 0 8px 16px rgba(0, 20, 80, 0.04), 0 4px 16px rgba(0, 0, 0, 0.08);\n  box-shadow: 0 8px 16px rgba(254, 200, 140, 0.04), 0 4px 16px rgba(0, 0, 0, 0.08);\n}"
+
+  [params.webslides]
+  autoslide = false
+  banner = false
+  changeOnClick = false
+  disableLoop = false
+  disableNavigateOnScroll = false
+  hideIndex = false
+  minWheelDelta = 40.0
+  scrollWait = 450.0
+  slideOffset = 50.0
+  slideshow = true
+  vertical = false

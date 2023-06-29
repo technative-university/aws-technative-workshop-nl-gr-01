@@ -1,0 +1,13 @@
+---
+title: Site Config
+description: Hugo & Site Configuration values
+file: config.toml
+fields:
+  - key: title
+    title: Site Title
+    type: string
+    tip: Your page title. [Read more on hugo hq](https://gohugo.io)
+  - key: baseURL
+    title: Base URL
+    type: string
+
