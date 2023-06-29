@@ -242,7 +242,7 @@ and this happens...
 
 
 
-## **Tracklib** is unhappy with Vercel
+## **company** is unhappy with Vercel
 
 # 😒
 
@@ -264,7 +264,7 @@ Current growth will drive the costs unreasonable high.
 
 <!-- : .wrap .size-70 .aligncenter -->
 
-##### Tracklib asked TechNative to compare other hosting options.
+##### company asked TechNative to compare other hosting options.
 
 ### These are the results..{.technative-title}
 
@@ -338,7 +338,7 @@ Current growth will drive the costs unreasonable high.
 - • Using the serverless framework.
 - • Officially supports untill NextJS 11
 - • NextJS 12 together with ISR and SSR in feature branches.
-- • Some success with Tracklib frontend running Next 12
+- • Some success with company frontend running Next 12
 - • NextJS 13 upgrade broke our implementation, (we made a git mess)
 
 &nbsp;
@@ -516,7 +516,7 @@ password: ww99ww99
 
 ##### Comparison {.technative-title}
 
-### Compliance with Tracklib technical requirements
+### Compliance with company technical requirements
 
 | Solution          | Full stack compatibility  | FrontEnd compatibility |
 |-------------------|---------------------------|------------------------|
